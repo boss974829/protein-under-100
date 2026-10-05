@@ -1,0 +1,8 @@
+# Local preview captures
+*-preview.png
+*-live.png
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
