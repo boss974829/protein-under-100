@@ -6,6 +6,14 @@
 
 Open that link on your phone to browse the foods, set a budget, and build a plate. You can also add it to your phone’s home screen from your browser’s share or menu options.
 
+## Android app
+
+The Android app opens the live site in a lightweight WebView. The latest debug-installable APK is available here:
+
+**[Download Protein Under 100 for Android](https://github.com/boss974829/protein-under-100/raw/refs/heads/main/downloads/protein-under-100.apk)**
+
+On Android, open the APK and follow the install prompt. If Android asks, allow your browser or file manager to install this app. This debug build is for direct installation and testing; it is not a Play Store release.
+
 ## What it does
 
 - Browse 35+ vegetarian, egg, and non-vegetarian protein options.
@@ -30,6 +38,8 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 The repository includes a GitHub Actions workflow that publishes the site to GitHub Pages when changes are pushed to `main`. After the first deployment finishes, the live app is available at:
 
 **https://boss974829.github.io/protein-under-100/**
+
+Changes to the Android project also trigger a GitHub Actions build, which updates the APK in `downloads/`.
 
 If Pages is not enabled automatically, open the repository’s **Settings → Pages** and select **GitHub Actions** as the build and deployment source.
 
